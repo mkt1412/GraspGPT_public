@@ -1,0 +1,1 @@
+The saucepan is an example of a conical frustum, which is comprised of a cylinder with two parallel planes attached at its two larger ends, forming a cone with a circular base and an opening at the smaller top end.

@@ -1,0 +1,1 @@
+Household objects that support the function of drinking include drinking vessels such as glasses/mugs, open/closed containers such as bottles, pitchers and dispensers, and utensils such as straws and spoons.

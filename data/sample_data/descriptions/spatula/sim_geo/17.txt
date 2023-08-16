@@ -1,0 +1,1 @@
+Household objects that have a similar geometry to a spatula are items such as a tablespoon, ladle, or even a rolling pin. All of these objects have a broad, flat surface at one end, as well as a broad handle at the other.

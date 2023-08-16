@@ -1,0 +1,1 @@
+A household object with a geometry similar to a mug is a measuring cup, which has a similar cylindrical shape, with a curved handle on one side and a spout on the other. Additionally, an ice cream cone has curvatures that are similar to a mug handle, with a base similar to a mug handle in its overall shape.

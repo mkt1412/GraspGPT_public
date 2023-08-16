@@ -1,0 +1,1 @@
+Household objects that have a similar geometry to a spatula often consist of objects that are flat and have a curved end. These objects may include large spoons, ladles, large butter knives, and some types of trowels.

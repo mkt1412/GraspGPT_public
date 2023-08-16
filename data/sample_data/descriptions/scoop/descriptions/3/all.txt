@@ -1,0 +1,1 @@
+Household objects used to support the function of scooping typically include items such as spoons, ladles, scoops, and hands. These objects use the physics principles of leverage and friction to lift and move various materials such as food, liquids, and powders. Verbs that can be used to describe this action include scooping, ladling, or scooping up the object.

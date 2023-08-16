@@ -1,0 +1,1 @@
+Household objects that can be used to scoop include wide-mouthed cups, spoons, ladles, and shallow bowls. They allow a user to pick up and hold a material, and then move it from one location to another.

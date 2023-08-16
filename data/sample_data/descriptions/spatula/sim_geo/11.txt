@@ -1,0 +1,1 @@
+Household objects which have similar geometries to a spatula include other kitchen utensils such as ladles, spoons, and turners, which all share an elongated triangular shape with a rounded handle.

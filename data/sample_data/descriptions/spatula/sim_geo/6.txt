@@ -1,0 +1,1 @@
+A household object that may share a similar geometric structure to a spatula could be a spoon. Both spatulas and spoons may share similar curved geometries and rounded, rectangular, or similar shaped heads.

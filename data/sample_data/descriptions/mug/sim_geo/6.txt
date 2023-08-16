@@ -1,0 +1,1 @@
+A household object with a similar geometry to a mug would be a cereal bowl, as both have a cylindrical shape with a round base culminating in a flat rim. Another example might be a vase, which again is cylindrical but with a tapered shape at the top.

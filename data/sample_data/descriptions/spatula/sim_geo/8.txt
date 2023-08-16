@@ -1,0 +1,1 @@
+Household objects that have similar geometries to a spatula include large spoons, ladles, and tongs. These objects also share a similar structure of two smooth flat surfaces connected to a central handle.

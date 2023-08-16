@@ -1,0 +1,1 @@
+Mug is an example of a 3-dimensional geometric shape with a circular base, cylindrical sides, and a flat top.

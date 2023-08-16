@@ -1,0 +1,1 @@
+Household objects that can be used to pour include pitchers, jugs, measuring cups, and spoons. These objects can help measure and control the amount of liquid being poured, providing a more detailed and accurate response.

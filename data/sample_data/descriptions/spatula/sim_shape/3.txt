@@ -1,0 +1,1 @@
+Household objects that have similar shapes to a spatula are items such as a cake spatula, a knife, and a spoon. These objects all generally have a flat, flexible blade and a handle made of material such as plastic, metal, or wood.
