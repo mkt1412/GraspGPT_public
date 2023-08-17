@@ -2,7 +2,7 @@
 [[arxiv]](https://arxiv.org/pdf/2307.13204.pdf) [[website]](https://sites.google.com/view/graspgpt/home) [[video]](https://www.youtube.com/watch?v=kHhQMrmeun0)
 
 [Chao Tang](https://mkt1412.github.io/), [Dehao Huang](http://github.com/red0orange), [Wenqi Ge](https://github.com/Laniakea77), [Weiyu Liu](http://weiyuliu.com/), [Hong Zhang](https://faculty.sustech.edu.cn/zhangh33/en/)    
-[RCV Lab](https://rcvlab.eee.sustech.edu.cn/), Southern University of Science and Technology, Georgia Institute of Technology  
+Southern University of Science and Technology, Georgia Institute of Technology  
 
 This is a Pytorch implementation of GraspGPT. If you find this work useful, please cite:
 ```
@@ -13,7 +13,7 @@ This is a Pytorch implementation of GraspGPT. If you find this work useful, plea
   year={2023}
 }
   ```
-We have borrowed tons of code from [GCNGrasp](https://arxiv.org/abs/2011.06431), please also consider citing their work:
+We have borrowed tons of code from [GCNGrasp](https://arxiv.org/abs/2011.06431). Please also consider citing their work:
 ```
 @inproceedings{murali2020taskgrasp,
   title={Same Object, Different Grasps: Data and Semantic Knowledge for Task-Oriented Grasping},
@@ -22,6 +22,19 @@ We have borrowed tons of code from [GCNGrasp](https://arxiv.org/abs/2011.06431),
   year={2020}
 }
   ```
+
+## Installation
+
+## Dataset
+The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on LA-TaskGrasp dataset, download the dataset [here]() and replace the dataset folder as below:
+```shell
+cd ~/graspgpt_ws/GraspGPT_public
+rm xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+unzip ~/Downloads/data.zip -d ./
+rm ~/Downloads/data.zip
+```
+
+To visualize the collected point clouds and labeled task-oriented grasps, please refer to the [github repo](https://github.com/adithyamurali/TaskGrasp) of TaskGrasp dataset under Usage section.  
 
 ## Demo 
 We provide two types of demos: (1) database version, where GraspGPT uses the pre-generated natural language descriptions for task-oriented grasp pose prediction, (2) interactive version, where GraspGPT interacts with an LLM via prompts to generate language descriptions for task-oriented grasping. 
@@ -41,15 +54,15 @@ gcngrasp_split_mode_t_split_idx_3_.yml
 
 ### Database version
 Objetc class: *pan*, task: *pour*
-```
+```shell
 python gcngrasp/demo_db.py --cfg_file cfg/eval/gcngrasp/gcngrasp_split_mode_o_split_idx_0_.yml --obj_name pan --obj_class saucepan --task pour
 ```
 Objetc class: *spatula*, task: *scoop*
-```
+```shell
 python gcngrasp/demo_db.py --cfg_file cfg/eval/gcngrasp/gcngrasp_split_mode_o_split_idx_0_.yml --obj_name spatula --obj_class spatula --task scoop
 ```
 Objetc class: *mug*, task: *drink*
-```
+```shell
 python gcngrasp/demo_db.py --cfg_file cfg/eval/gcngrasp/gcngrasp_split_mode_o_split_idx_0_.yml --obj_name mug --obj_class mug --task drink
 ```
 
@@ -60,20 +73,34 @@ OPENAI_API_KEY = "xx-xxxxxx"
 ```
 
 Objetc class: *pan*, task: *pour*
-```
+```shell
 python gcngrasp/demo_llm.py --cfg_file cfg/eval/gcngrasp/gcngrasp_split_mode_o_split_idx_0_.yml --obj_name pan --obj_class saucepan --task pour
 ```
 Objetc class: *spatula*, task: *scoop*
-```
+```shell
 python gcngrasp/demo_llm.py --cfg_file cfg/eval/gcngrasp/gcngrasp_split_mode_o_split_idx_0_.yml --obj_name spatula --obj_class spatula --task scoop
 ```
 Objetc class: *mug*, task: *drink*
-```
+```shell
 python gcngrasp/demo_llm.py --cfg_file cfg/eval/gcngrasp/gcngrasp_split_mode_o_split_idx_0_.yml --obj_name mug --obj_class mug --task drink
 ```
+
+## Training
+To train GraspGPT from scratch:
+```shell
+python gcngrasp/train.py --cfg_file cfg/train/gcngrasp/gcngrasp_split_mode_t_split_idx_3_.yml
+```
+You can replace t_split_idx_3 with other split numbers (i.e., 0, 1, 2) or object class split (i.e., o_split_x).
+
+## Evaluation
+To evaluate a pre-trained model:
+```shell
+python gcngrasp/eval.py cfg/eval/gcngrasp/gcngrasp_split_mode_t_split_idx_3_.yml --save
+```
+Similarly, feel free to try out different split number or object class split models.
 
 ## TODOs
 - [ ] installation tutorial
 - [ ] dataset download
-- [ ] training and evaluation
+- [x] training and evaluation
 
