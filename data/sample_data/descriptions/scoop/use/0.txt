@@ -1,1 +1,0 @@
-Household objects such as spoons, ladles, and scoops can be used to scoop materials, typically food or liquids. Utensils with shallow bowls and curved edges, like measuring spoons, are best suited for scooping semi-solid or dry materials.

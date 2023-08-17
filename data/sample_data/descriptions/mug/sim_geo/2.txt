@@ -1,1 +1,0 @@
-Household objects that have similar geometries to a mug are items like bowls, jugs, and glasses. These items have a similar cylindrical shape and curved base which allows them to stand upright and hold liquid.

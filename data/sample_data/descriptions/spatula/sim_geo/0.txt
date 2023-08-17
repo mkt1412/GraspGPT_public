@@ -1,1 +1,0 @@
-A household object with a similar geometry to a spatula is a spoon, which has a curved edge, flat surface and a handle for gripping. Another similar household object is a ladle, which has a wide, bowl-shaped surface, curved edge and handle for gripping.

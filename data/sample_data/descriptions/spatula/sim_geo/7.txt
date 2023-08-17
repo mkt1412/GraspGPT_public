@@ -1,1 +1,0 @@
-Household objects that share similar geometries to a spatula include the hand-shaped end of a vegetable peeler, the curved handle of a stirring spoon, and the blade of an egg-slicing knife.

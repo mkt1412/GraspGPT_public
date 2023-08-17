@@ -1,1 +1,0 @@
-A household object that has a similar geometry to a spatula is a large spoon, as both have a flat, straight surface at the bottom connected to a handle. Another similar object is a butter knife, which has a gently curved blade that is attached to a handle.

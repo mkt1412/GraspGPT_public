@@ -1,1 +1,0 @@
-A household object that has a similar function as a mug is a cup. Both items hold a liquid and have a handle for ease of transport. Additionally, many mugs and cups are designed to be stacked for efficient storage.

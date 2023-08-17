@@ -1,1 +1,0 @@
-Household objects that can support the function of scooping include spoons, ladles, and trowels. These objects have a scoop-shaped head and a handle that provide leverage to assist in gathering an object or material.

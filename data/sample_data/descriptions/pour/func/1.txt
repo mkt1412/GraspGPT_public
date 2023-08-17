@@ -1,1 +1,0 @@
-Household objects that support the function of pouring include cups, glasses, and pitchers, which are used to contain, measure, and direct the flow of liquid.

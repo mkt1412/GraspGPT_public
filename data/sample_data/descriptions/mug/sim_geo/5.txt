@@ -1,1 +1,0 @@
-A household object that shares a similar geometry to a mug is a jar. Both objects have circular walls forming a hollow cylindrical shape with a narrowing at the top for an opening.

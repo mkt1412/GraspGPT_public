@@ -70,7 +70,7 @@ class GCNTaskGrasp(data.Dataset):
                 'knowledge_graph',
                 graph_data_path,
                 'graph_data.pkl')  # load pre-constructed graph: 'gcngrasp/../data/knowledge_graph/kb2_task_wn_noi/graph_data.pkl'
-            assert os.path.exists(graph_data_path)
+            # assert os.path.exists(graph_data_path)
         self._graph_data_path = graph_data_path
         self._pc_scaling = pc_scaling  # True
         self._split_mode = split_mode  # t/o
@@ -84,6 +84,7 @@ class GCNTaskGrasp(data.Dataset):
         task1_results_file = os.path.join(
             base_dir, folder_dir, 'task1_results.txt')
         assert os.path.exists(task1_results_file)
+
 
         self._train = train
         self._map_obj2class = map_obj2class  # instance to class

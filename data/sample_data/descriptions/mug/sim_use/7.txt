@@ -1,1 +1,0 @@
-A household object with a similar use to a mug is a cup, which can also be used to hold liquid. Another object with a similar use is a bowl, which can be used to hold dry goods, such as cereal, or liquids, such as soup.

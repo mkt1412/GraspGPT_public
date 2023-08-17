@@ -1,1 +1,0 @@
-A household object that has a similar function to a mug is a glass, as both can hold beverages and other liquid contents. Another object with similar capabilities is a cup, which also serves for consuming and transporting liquids.

@@ -1,1 +1,0 @@
-Household objects such as cups, pitchers, and containers support the function of pour by providing a vessel through which a liquid can be transferred from one place to another. Additionally, certain utensils, such as spoons and ladles, enable more precise pouring of a liquid.

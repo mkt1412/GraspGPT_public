@@ -1,1 +1,0 @@
-Household objects that support the function of pouring can include pitchers, jugs, cups and ladles, designed to direct liquid from a container to an intended area. These objects make use of gravity, along with the shape, material and size of the object, to control the rate, direction and quantity of the liquid.

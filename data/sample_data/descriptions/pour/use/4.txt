@@ -1,1 +1,0 @@
-Household objects that can be used to pour include pitchers, jugs, cups, and beakers. Each of these objects can be used to measure different volumes of liquid accurately, and can allow for more precise control than simply pouring from a container with no markings.
