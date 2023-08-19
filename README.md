@@ -23,10 +23,14 @@ We have borrowed tons of code from [GCNGrasp](https://arxiv.org/abs/2011.06431).
 }
   ```
 
+**Note that we provide a light-weight version of GraspGPT in this repo. It is with faster inference speed and easier to train. Also, the model achieves comparable performance to the one described in our paper.**
+
 ## Installation
 
+TBA
+
 ## Dataset
-The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on LA-TaskGrasp dataset, download the dataset [here]() and replace the dataset folder as below:
+The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on the LA-TaskGrasp dataset, download the dataset [here](https://gatech.box.com/s/uohdwktsnrxg6cpby0zcqj9asq7dhtfj) and place it in the root folder as `data`:
 ```shell
 cd ~/graspgpt_ws/GraspGPT_public
 rm xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -34,7 +38,9 @@ unzip ~/Downloads/data.zip -d ./
 rm ~/Downloads/data.zip
 ```
 
-To visualize the collected point clouds and labeled task-oriented grasps, please refer to the [github repo](https://github.com/adithyamurali/TaskGrasp) of TaskGrasp dataset under Usage section.  
+To visualize the collected point clouds and labeled task-oriented grasps, please refer to the [github repo](https://github.com/adithyamurali/TaskGrasp) of TaskGrasp dataset under Usage section.
+
+To run any of the demo scripts below, download the pre-trained models [here](https://gatech.box.com/s/ks9krvii3fwwayf9kcsvvuaqvqg7ac6p) and put them in the `checkpoints` folder.
 
 ## Demo 
 We provide two types of demos: (1) database version, where GraspGPT uses the pre-generated natural language descriptions for task-oriented grasp pose prediction, (2) interactive version, where GraspGPT interacts with an LLM via prompts to generate language descriptions for task-oriented grasping. 
@@ -97,7 +103,7 @@ To evaluate a pre-trained model:
 ```shell
 python gcngrasp/eval.py cfg/eval/gcngrasp/gcngrasp_split_mode_t_split_idx_3_.yml --save
 ```
-Similarly, feel free to try out different split number or object class split models.
+Similarly, feel free to try out different split numbers or object class split.
 
 ## TODOs
 - [ ] installation tutorial
