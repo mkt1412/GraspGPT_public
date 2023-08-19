@@ -33,7 +33,6 @@ TBA
 The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on the LA-TaskGrasp dataset, download the dataset [here](https://gatech.box.com/s/uohdwktsnrxg6cpby0zcqj9asq7dhtfj) and place it in the root folder as `data`:
 ```shell
 cd ~/graspgpt_ws/GraspGPT_public
-rm xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 unzip ~/Downloads/data.zip -d ./
 rm ~/Downloads/data.zip
 ```
