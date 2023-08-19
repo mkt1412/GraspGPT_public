@@ -27,12 +27,29 @@ We have borrowed tons of code from [GCNGrasp](https://arxiv.org/abs/2011.06431).
 
 ## Installation
 
-TBA
+**Our code is tested on Ubuntu 20.04, python 3.7, cuda 11.3, pytorch 1.11.0, and pytorch lighting 0.7.1.**
+
+1) Create a virtual env or conda environment with python 3.7:
+```shell
+conda create --name graspgpt python=3.7
+conda activate graspgpt
+```
+
+2) Git clone the repo to your machine:
+```shell
+git clone https://github.com/mkt1412/GraspGPT_public.git
+```
+
+3) Install dependencies:
+```shell
+cd GraspGPT_public
+conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=11.3 -c pytorch
+pip install -r requirements.txt
+```
 
 ## Dataset
 The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on the LA-TaskGrasp dataset, download the dataset [here](https://gatech.box.com/s/uohdwktsnrxg6cpby0zcqj9asq7dhtfj) and place it in the root folder as `data`:
 ```shell
-cd ~/graspgpt_ws/GraspGPT_public
 unzip ~/Downloads/data.zip -d ./
 rm ~/Downloads/data.zip
 ```
@@ -103,9 +120,4 @@ To evaluate a pre-trained model:
 python gcngrasp/eval.py cfg/eval/gcngrasp/gcngrasp_split_mode_t_split_idx_3_.yml --save
 ```
 Similarly, feel free to try out different split numbers or object class split.
-
-## TODOs
-- [ ] installation tutorial
-- [ ] dataset download
-- [x] training and evaluation
 
