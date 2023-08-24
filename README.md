@@ -27,7 +27,7 @@ We have borrowed tons of code from [GCNGrasp](https://arxiv.org/abs/2011.06431).
 
 ## Installation
 
-**Our code is tested on Ubuntu 20.04, python 3.7, cuda 11.3, pytorch 1.11.0, and pytorch lighting 0.7.1.**
+**Our code is tested on Ubuntu 20.04, python 3.7, cuda 11.3, pytorch 1.11.0, and pytorch lightning 0.7.1.**
 
 1) Create a virtual env or conda environment with python 3.7:
 ```shell
@@ -59,7 +59,9 @@ To visualize the collected point clouds and labeled task-oriented grasps, please
 To run any of the demo scripts below, download the pre-trained models [here](https://gatech.box.com/s/ks9krvii3fwwayf9kcsvvuaqvqg7ac6p) and put them in the `checkpoints` folder.
 
 ## Demo 
-We provide two types of demos: (1) database version, where GraspGPT uses the pre-generated natural language descriptions for task-oriented grasp pose prediction, (2) interactive version, where GraspGPT interacts with an LLM via prompts to generate language descriptions for task-oriented grasping. 
+We provide two types of demos:     
+* **Database version**, where GraspGPT uses the pre-generated natural language descriptions for task-oriented grasp pose prediction.
+* **Interactive version**, where GraspGPT interacts with an LLM via prompts to generate language descriptions for task-oriented grasping.      
 
 Pre-trained models for each class and task split are provided:
 ```
@@ -119,5 +121,5 @@ To evaluate a pre-trained model:
 ```shell
 python gcngrasp/eval.py cfg/eval/gcngrasp/gcngrasp_split_mode_t_split_idx_3_.yml --save
 ```
-Similarly, feel free to try out different split numbers or object class split.
+Similarly, feel free to try out different split numbers and object class split.
 
