@@ -1,5 +1,5 @@
-# GraspGPT: Leveraging Semantic Knowledge from a Large Language Model for Task-Oriented Grasping
-[[arxiv]](https://arxiv.org/pdf/2307.13204.pdf) [[website]](https://sites.google.com/view/graspgpt/home) [[video]](https://www.youtube.com/watch?v=kHhQMrmeun0)
+# GraspGPT: Leveraging Semantic Knowledge from a Large Language Model for Task-Oriented Grasping (RA-L 2023)
+[[paper]](https://ieeexplore.ieee.org/abstract/document/10265134) [[website]](https://sites.google.com/view/graspgpt/home) [[video]](https://www.youtube.com/watch?v=kHhQMrmeun0)
 
 [Chao Tang](https://mkt1412.github.io/), [Dehao Huang](http://github.com/red0orange), [Wenqi Ge](https://github.com/Laniakea77), [Weiyu Liu](http://weiyuliu.com/), [Hong Zhang](https://faculty.sustech.edu.cn/zhangh33/en/)    
 Southern University of Science and Technology, Georgia Institute of Technology  
