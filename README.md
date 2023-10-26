@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on the LA-TaskGrasp dataset, download the dataset [here](https://gatech.box.com/s/uohdwktsnrxg6cpby0zcqj9asq7dhtfj) and place it in the root folder as `data`:
+The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on the LA-TaskGrasp dataset, download the dataset [here](https://gatech.box.com/s/vfd8l79hhzh9oml42z8yfnagxso2ew1g) and place it in the root folder as `data`:
 ```shell
 unzip ~/Downloads/data.zip -d ./
 rm ~/Downloads/data.zip
@@ -56,7 +56,7 @@ rm ~/Downloads/data.zip
 
 To visualize the collected point clouds and labeled task-oriented grasps, please refer to the [github repo](https://github.com/adithyamurali/TaskGrasp) of TaskGrasp dataset under Usage section.
 
-To run any of the demo scripts below, download the pre-trained models [here](https://gatech.box.com/s/ks9krvii3fwwayf9kcsvvuaqvqg7ac6p) and put them in the `checkpoints` folder.
+To run any of the demo scripts below, download the pre-trained models [here](https://gatech.box.com/s/8gl041eaum8jqgcxv6re6mhbow23rc1o) and put them in the `checkpoints` folder.
 
 ## Demo 
 We provide two types of demos:     
