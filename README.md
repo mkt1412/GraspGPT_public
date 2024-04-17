@@ -124,3 +124,23 @@ python gcngrasp/eval.py cfg/eval/gcngrasp/gcngrasp_split_mode_t_split_idx_3_.yml
 ```
 Similarly, feel free to try out different split numbers and object class split.
 
+# FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models
+[[preprint]](https://arxiv.org/pdf/2404.10399.pdf) [[website]](https://sites.google.com/view/foundationgrasp) [[video]](https://www.youtube.com/watch?v=0AEwXl9i77o)
+
+Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate github repo for the code implementation and data of FoundationGrasp. If you find FoundationGrasp useful in your useful, please cite:
+```
+@misc{tang2024foundationgrasp,
+      title={FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models}, 
+      author={Chao Tang and Dehao Huang and Wenlong Dong and Ruinian Xu and Hong Zhang},
+      year={2024},
+      eprint={2404.10399},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+  ```
+## Data
+
+## Code Implementation
+
+
+
