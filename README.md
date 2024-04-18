@@ -127,7 +127,7 @@ Similarly, feel free to try out different split numbers and object class split.
 # FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models
 [[preprint]](https://arxiv.org/pdf/2404.10399.pdf) [[website]](https://sites.google.com/view/foundationgrasp) [[video]](https://www.youtube.com/watch?v=0AEwXl9i77o)
 
-Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate github repo for the code implementation and data of FoundationGrasp. If you find FoundationGrasp useful in your useful, please cite:
+Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate GitHub repo for the code implementation and data of FoundationGrasp. If you find FoundationGrasp useful in your research, please cite:
 ```
 @misc{tang2024foundationgrasp,
       title={FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models}, 
@@ -139,8 +139,15 @@ Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate 
 }
   ```
 ## Data
+Step 1. Download the original LA-TaskGrasp dataset [here](https://gatech.box.com/s/y3apio54hbx2jhzvra4wcz6eo6ty1uu6) and place it in the root folder as `data`.   
+Step 2. Download the updated language description data of the LaViA-TaskGrasp dataset [here](https://gatech.box.com/s/dns1afgwmz6u66m39ec2w0k5wnany7rr) and replace the old one in the LA-TaskGrasp dataset (i.e., obj_gpt_vx, task_gpt_vx).   
+Step 3. For language instruction data, please refer to `data/task_ins_v2`.  
+Step 4. For image data, please refer to `data/rgb_images`.   
+Step 5. Modify the dataloader in `gcngrasp/data/GCNLoader.py` so that the model can read the updated language description and image data.  
 
 ## Code Implementation
+Step 1. The semantic branch of FoundationGrasp is similar to GraspGPT. Feel free to use to the code implementation of GraspGPT provided above.  
+Step 2. The geometric branch of FoundationGrasp is largely inspired by [XMFNet](https://github.com/diegovalsesia/XMFnet/tree/main). Please refer to `XMFnet/model.py` to reproduce the geometric branch.
 
 
 
