@@ -1,3 +1,5 @@
+# An Official Code Implementation of GraspGPT & FoundationGrasp
+
 # GraspGPT: Leveraging Semantic Knowledge from a Large Language Model for Task-Oriented Grasping (RA-L 2023)
 [[paper]](https://ieeexplore.ieee.org/abstract/document/10265134) [[website]](https://sites.google.com/view/graspgpt/home) [[video]](https://www.youtube.com/watch?v=qq0DMdHRw1E)
 
@@ -129,13 +131,11 @@ Similarly, feel free to try out different split numbers and object class split.
 
 Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate GitHub repo for the code implementation and data of FoundationGrasp. If you find FoundationGrasp useful in your research, please cite:
 ```
-@misc{tang2024foundationgrasp,
-      title={FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models}, 
-      author={Chao Tang and Dehao Huang and Wenlong Dong and Ruinian Xu and Hong Zhang},
-      year={2024},
-      eprint={2404.10399},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+@article{tang2024foundationgrasp,
+  title={FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models},
+  author={Tang, Chao and Huang, Dehao and Dong, Wenlong and Xu, Ruinian and Zhang, Hong},
+  journal={arXiv preprint arXiv:2404.10399},
+  year={2024}
 }
   ```
 ## Data
