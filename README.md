@@ -129,6 +129,8 @@ Similarly, feel free to try out different split numbers and object class split.
 # FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models
 [[preprint]](https://arxiv.org/pdf/2404.10399.pdf) [[website]](https://sites.google.com/view/foundationgrasp) [[video]](https://www.youtube.com/watch?v=0AEwXl9i77o)
 
+[Chao Tang](https://mkt1412.github.io/), [Dehao Huang](http://github.com/red0orange), [Wenlong Dong](https://scholar.google.com/citations?user=NNafpNQAAAAJ&hl=zh-CN), [Ruinian Xu](https://scholar.google.com/citations?user=qy644T4AAAAJ&hl=en), [Hong Zhang](https://faculty.sustech.edu.cn/zhangh33/en/)  
+
 Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate GitHub repo for the code implementation and data of FoundationGrasp. If you find FoundationGrasp useful in your research, please cite:
 ```
 @article{tang2024foundationgrasp,
