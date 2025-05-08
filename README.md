@@ -133,11 +133,12 @@ Similarly, feel free to try out different split numbers and object class split.
 
 Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate GitHub repo for the code implementation and data of FoundationGrasp. If you find FoundationGrasp useful in your research, please cite:
 ```
-@article{tang2024foundationgrasp,
-  title={FoundationGrasp: Generalizable Task-Oriented Grasping with Foundation Models},
+@article{tang2025foundationgrasp,
+  title={Foundationgrasp: Generalizable task-oriented grasping with foundation models},
   author={Tang, Chao and Huang, Dehao and Dong, Wenlong and Xu, Ruinian and Zhang, Hong},
-  journal={arXiv preprint arXiv:2404.10399},
-  year={2024}
+  journal={IEEE Transactions on Automation Science and Engineering},
+  year={2025},
+  publisher={IEEE}
 }
   ```
 ## Data
