@@ -142,7 +142,7 @@ Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate 
 }
   ```
 ## Data
-Step 1. Download the original LA-TaskGrasp dataset [here](https://gatech.box.com/s/ddvp9co4jv462gchp38m31kb0umkt03p) and place it in the root folder as `data`.   
+Step 1. Download the original LA-TaskGrasp dataset [here](https://gatech.box.com/s/vr2gmh74thg268uay5it2t4cvig8lw50) and place it in the root folder as `data`.   
 Step 2. Download the updated language description data of the LaViA-TaskGrasp dataset [here](https://gatech.box.com/s/aiy0ynwovlt4l0nk5pnp8v646wk2l6zt) and replace the old one in the LA-TaskGrasp dataset (i.e., obj_gpt_vx, task_gpt_vx).   
 Step 3. For language instruction data, please refer to `data/task_ins_v2`.  
 Step 4. For image data, please refer to `data/rgb_images`.   
