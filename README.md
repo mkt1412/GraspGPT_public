@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on the LA-TaskGrasp dataset, download the dataset [here](https://gatech.box.com/s/vr2gmh74thg268uay5it2t4cvig8lw50) and place it in the root folder as `data`:
+The Language Augmented TaskGrasp (LA-TaskGrasp) dataset is developed based on [TaskGrasp](https://arxiv.org/abs/2011.06431) dataset. To perform training and evaluation on the LA-TaskGrasp dataset, download the dataset [here](https://gatech.box.com/s/snvh56blx38vwaceb13i95zagtb7yqfr) and place it in the root folder as `data`:
 ```shell
 unzip ~/Downloads/data.zip -d ./
 rm ~/Downloads/data.zip
@@ -59,7 +59,7 @@ rm ~/Downloads/data.zip
 
 To visualize the collected point clouds and labeled task-oriented grasps, please refer to the [github repo](https://github.com/adithyamurali/TaskGrasp) of TaskGrasp dataset under Usage section.
 
-To run any of the demo scripts below, download the pre-trained models [here](https://gatech.box.com/s/hshd95fht4q8kyz667rxyyksn2wzfzxa) and put them in the `checkpoints` folder.
+To run any of the demo scripts below, download the pre-trained models [here](https://gatech.box.com/s/euxbgh9vxy503fxhvlqvkqk1xmbrj6y2) and put them in the `checkpoints` folder.
 
 ## Demo 
 We provide two types of demos:     
@@ -143,7 +143,7 @@ Since FoundationGrasp is an extension of GraspGPT, we do not provide a separate 
   ```
 ## Data
 Step 1. Download the original LA-TaskGrasp dataset [here](https://gatech.box.com/s/vr2gmh74thg268uay5it2t4cvig8lw50) and place it in the root folder as `data`.   
-Step 2. Download the updated language description data of the LaViA-TaskGrasp dataset [here](https://gatech.box.com/s/aiy0ynwovlt4l0nk5pnp8v646wk2l6zt) and replace the old one in the LA-TaskGrasp dataset (i.e., obj_gpt_vx, task_gpt_vx).   
+Step 2. Download the updated language description data of the LaViA-TaskGrasp dataset [here](https://gatech.box.com/s/3ef1zofm4xt5zmtjfhluzi4sbbnqe5qk) and replace the old one in the LA-TaskGrasp dataset (i.e., obj_gpt_vx, task_gpt_vx).   
 Step 3. For language instruction data, please refer to `data/task_ins_v2`.  
 Step 4. For image data, please refer to `data/rgb_images`.   
 Step 5. Modify the dataloader in `gcngrasp/data/GCNLoader.py` so that the model can read the updated language description and image data.  
